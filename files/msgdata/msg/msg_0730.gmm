@@ -50,11 +50,11 @@
 	</row>
 	<row id="msg_0730_00012" index="12">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Cyclist</language>
+		<language name="English">Battle Kin</language>
 	</row>
 	<row id="msg_0730_00013" index="13">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Cyclist</language>
+		<language name="English">Painter</language>
 	</row>
 	<row id="msg_0730_00014" index="14">
 		<attribute name="window_context_name">used</attribute>
@@ -118,7 +118,7 @@
 	</row>
 	<row id="msg_0730_00029" index="29">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Dragon Tamer</language>
+		<language name="English">Tamer</language>
 	</row>
 	<row id="msg_0730_00030" index="30">
 		<attribute name="window_context_name">used</attribute>
@@ -210,7 +210,7 @@
 	</row>
 	<row id="msg_0730_00052" index="52">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Guitarist</language>
+		<language name="English">Rocker</language>
 	</row>
 	<row id="msg_0730_00053" index="53">
 		<attribute name="window_context_name">used</attribute>
@@ -230,7 +230,7 @@
 	</row>
 	<row id="msg_0730_00057" index="57">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Roughneck</language>
+		<language name="English">Cue Ball</language>
 	</row>
 	<row id="msg_0730_00058" index="58">
 		<attribute name="window_context_name">used</attribute>
@@ -238,7 +238,7 @@
 	</row>
 	<row id="msg_0730_00059" index="59">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Worker</language>
+		<language name="English">Engineer</language>
 	</row>
 	<row id="msg_0730_00060" index="60">
 		<attribute name="window_context_name">used</attribute>
@@ -310,7 +310,7 @@
 	</row>
 	<row id="msg_0730_00077" index="77">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Teacher</language>
+		<language name="English">Sis and Bro</language>
 	</row>
 	<row id="msg_0730_00078" index="78">
 		<attribute name="window_context_name">used</attribute>
@@ -318,7 +318,7 @@
 	</row>
 	<row id="msg_0730_00079" index="79">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Sage</language>
+		<language name="English">Gambler</language>
 	</row>
 	<row id="msg_0730_00080" index="80">
 		<attribute name="window_context_name">used</attribute>
@@ -414,19 +414,19 @@
 	</row>
 	<row id="msg_0730_00103" index="103">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Leader</language>
+		<language name="English">₧₦ Trainer</language>
 	</row>
 	<row id="msg_0730_00104" index="104">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Leader</language>
+		<language name="English">₧₦ Trainer</language>
 	</row>
 	<row id="msg_0730_00105" index="105">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Leader</language>
+		<language name="English">Team Rocket</language>
 	</row>
 	<row id="msg_0730_00106" index="106">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Leader</language>
+		<language name="English">Team Rocket</language>
 	</row>
 	<row id="msg_0730_00107" index="107">
 		<attribute name="window_context_name">used</attribute>
@@ -442,7 +442,7 @@
 	</row>
 	<row id="msg_0730_00110" index="110">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Leader</language>
+		<language name="English">₧₦ Trainer</language>
 	</row>
 	<row id="msg_0730_00111" index="111">
 		<attribute name="window_context_name">used</attribute>
@@ -486,7 +486,7 @@
 	</row>
 	<row id="msg_0730_00121" index="121">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Double Team</language>
+		<language name="English">Ace Duo</language>
 	</row>
 	<row id="msg_0730_00122" index="122">
 		<attribute name="window_context_name">used</attribute>
