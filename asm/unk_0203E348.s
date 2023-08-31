@@ -1041,30 +1041,33 @@ _0203EA2C: .word FieldSystem_LaunchApplication
 _0203EA30: .word _020FA404
 	thumb_func_end sub_0203EA24
 
-	thumb_func_start SwitchToPokegearApp_Phone
-SwitchToPokegearApp_Phone: ; 0x0203EA34
+	thumb_func_start PhoneUI_New
+PhoneUI_New: ; 0x0203EA34
 	push {r4, r5, r6, lr}
-	sub sp, #0x10
-	ldr r5, _0203EA58 ; =_020FA3F4
-	add r4, sp, #0
-	add r6, r0, #0
-	add r2, r1, #0
-	add r3, r4, #0
-	ldmia r5!, {r0, r1}
-	stmia r4!, {r0, r1}
-	ldmia r5!, {r0, r1}
-	stmia r4!, {r0, r1}
-	add r0, r6, #0
-	add r1, r3, #0
-	bl FieldSystem_LaunchApplication
-	add sp, #0x10
+	mov r1, #0x1
+	add r5, r0, #0
+	add r6, r1, #0
+	mov r0, #0xb
+	mov r1, #0x2c
+	bl AllocFromHeapAtEnd
+	add r4, r0, #0
+	mov r1, #0
+	mov r2, #0x2c
+	bl MI_CpuFill8
+	add r0, r5, #0
+	add r1, r4, #0
+	bl sub_02092D8C
+	add r0, r5, #0
+	add r1, r4, #0
+	strb r6, [r4]
+	bl SwitchToPokegearApp_TownMap
+	add r0, r4, #0
 	pop {r4, r5, r6, pc}
-	nop
-_0203EA58: .word _020FA3F4
-	thumb_func_end SwitchToPokegearApp_Phone
-
+	.balign 4, 0
+	thumb_func_end PhoneUI_New
+	
 	thumb_func_start SwitchToPokegearApp_TownMap
-SwitchToPokegearApp_TownMap: ; 0x0203EA5C
+SwitchToPokegearApp_TownMap: ; 0x0203EA62
 	push {r4, r5, r6, lr}
 	sub sp, #0x10
 	ldr r5, _0203EA80 ; =_020FA3E4
@@ -1084,9 +1087,9 @@ SwitchToPokegearApp_TownMap: ; 0x0203EA5C
 	nop
 _0203EA80: .word _020FA3E4
 	thumb_func_end SwitchToPokegearApp_TownMap
-
-	thumb_func_start PhoneUI_New
-PhoneUI_New: ; 0x0203EA84
+	
+	thumb_func_start sub_0203EA8A_dummy
+sub_0203EA8A_dummy: ; 0x0203EA8A
 	push {r3, r4, r5, lr}
 	add r5, r0, #0
 	mov r0, #0xb
@@ -1101,11 +1104,8 @@ PhoneUI_New: ; 0x0203EA84
 	bl sub_02092D80
 	add r0, r5, #0
 	add r1, r4, #0
-	bl SwitchToPokegearApp_Phone
-	add r0, r4, #0
-	pop {r3, r4, r5, pc}
 	.balign 4, 0
-	thumb_func_end PhoneUI_New
+	thumb_func_end sub_0203EA8A_dummy
 
 	thumb_func_start TownMap_New
 TownMap_New: ; 0x0203EAB0
