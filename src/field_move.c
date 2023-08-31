@@ -218,7 +218,7 @@ static u32 FieldMoveMenuCheck_Fly(const struct FieldMoveCheckData *checkData) {
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_05)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_03)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -255,7 +255,7 @@ static u32 FieldMoveMenuCheck_Surf(const struct FieldMoveCheckData *checkData) {
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_04)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_05)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -300,7 +300,7 @@ static u32 FieldMoveMenuCheck_Strength(const struct FieldMoveCheckData *checkDat
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_03)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_04)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -403,7 +403,7 @@ static u32 FieldMoveMenuCheck_RockClimb(const struct FieldMoveCheckData *checkDa
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_EARTH)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_06)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
