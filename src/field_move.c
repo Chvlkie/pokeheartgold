@@ -186,7 +186,7 @@ static u32 FieldMoveMenuCheck_Cut(const struct FieldMoveCheckData *checkData) {
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_HIVE)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_02)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
     if (MoveUseCheck_FieldContextFlagCheck(checkData, FIELD_MOVE_CHECK_TREE_F)) {
@@ -218,7 +218,7 @@ static u32 FieldMoveMenuCheck_Fly(const struct FieldMoveCheckData *checkData) {
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_STORM)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_05)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -255,7 +255,7 @@ static u32 FieldMoveMenuCheck_Surf(const struct FieldMoveCheckData *checkData) {
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_FOG)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_04)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -300,7 +300,7 @@ static u32 FieldMoveMenuCheck_Strength(const struct FieldMoveCheckData *checkDat
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_PLAIN)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_03)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -336,7 +336,7 @@ static u32 FieldMoveMenuCheck_RockSmash(const struct FieldMoveCheckData *checkDa
     if (checkData->fieldSystem->unk70 == 2 || checkData->fieldSystem->unk70 == 3) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_ZEPHYR)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_01)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -371,7 +371,7 @@ static u32 FieldMoveMenuCheck_Waterfall(const struct FieldMoveCheckData *checkDa
     if (PlayerAvatar_GetState(checkData->fieldSystem->playerAvatar) != PLAYER_STATE_SURFING) {
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_RISING)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_08)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
@@ -627,7 +627,7 @@ static u32 FieldMoveMenuCheck_Whirlpool(const struct FieldMoveCheckData *checkDa
         return PARTY_MENU_RESPONSE_NOT_HERE;
     }
 
-    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_GLACIER)) {
+    if (!PlayerProfile_TestBadgeFlag(Save_PlayerData_GetProfileAddr(checkData->fieldSystem->saveData), BADGE_07)) {
         return PARTY_MENU_RESPONSE_NEED_BADGE;
     }
 
