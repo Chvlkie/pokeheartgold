@@ -95,3 +95,4 @@ diff.txt
 *.ml[0-9]
 *.mln
 
+/.vs
