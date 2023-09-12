@@ -15,54 +15,38 @@
       "class": "TRAINERCLASS_RIVAL",
       "name": "{TRNAME}Silver",
       "items": [],
-      "ai_flags": 35,
+      "ai_flags": 1,
       "double": 0,
       "party": [
         {
-          "difficulty": 30,
+          "difficulty": 10,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 14,
-          "species": "SPECIES_GASTLY",
-          "capsule": 0
-        },
-        {
-          "difficulty": 30,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 16,
-          "species": "SPECIES_ZUBAT",
-          "capsule": 0
-        },
-        {
-          "difficulty": 30,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 18,
-          "species": "SPECIES_BAYLEEF",
+          "level": 5,
+          "species": "SPECIES_CHARMANDER",
           "capsule": 0
         }
       ],
       "messages": [
         {
           "type": "TRMSG_LAST_POKE",
-          "message": "Say, you\u2019ve got a lot of nerve,\\ncoming here...\\n"
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
         },
         {
           "type": "TRMSG_LAST_POKE_HALF",
-          "message": "That\u2019s ridiculous. There\u2019s no way\\nI could lose to a wimp like you!\\n"
+          "message": "It\u2019s not over yet!\\n"
         },
         {
           "type": "TRMSG_LOSE",
-          "message": "...Humph!\\nUseless Pok\u00e9mon!\\rListen, you. You won only because my\\nPok\u00e9mon were weak.\\n"
+          "message": "What?!\\nUnbelievable!\rI picked the wrong Pok\u00e9mon!\\n"
         },
         {
           "type": "TRMSG_WIN",
-          "message": "...Humph!\\nI knew you were lying.\\n"
+          "message": "Yeah!\\nAm I great or what?\\n"
         }
       ]
     },
-    {
+     {
       "type": "TRTYPE_MON",
       "class": "TRAINERCLASS_RIVAL",
       "name": "{TRNAME}Silver",
@@ -71,17 +55,34 @@
       "double": 0,
       "party": [
         {
-          "difficulty": 0,
+          "difficulty": 10,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_CYNDAQUIL",
+          "species": "SPECIES_SQUIRTLE",
           "capsule": 0
         }
       ],
-      "messages": []
+      "messages": [
+        {
+          "type": "TRMSG_LAST_POKE",
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
+        },
+        {
+          "type": "TRMSG_LAST_POKE_HALF",
+          "message": "It\u2019s not over yet!\\n"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "What?!\\nUnbelievable!\rI picked the wrong Pok\u00e9mon!\\n"
+        },
+        {
+          "type": "TRMSG_WIN",
+          "message": "Yeah!\\nAm I great or what?\\n"
+        }
+      ]
     },
-    {
+     {
       "type": "TRTYPE_MON",
       "class": "TRAINERCLASS_RIVAL",
       "name": "{TRNAME}Silver",
@@ -90,15 +91,32 @@
       "double": 0,
       "party": [
         {
-          "difficulty": 0,
+          "difficulty": 10,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 5,
-          "species": "SPECIES_TOTODILE",
+          "species": "SPECIES_BULBASAUR",
           "capsule": 0
         }
       ],
-      "messages": []
+      "messages": [
+        {
+          "type": "TRMSG_LAST_POKE",
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
+        },
+        {
+          "type": "TRMSG_LAST_POKE_HALF",
+          "message": "It\u2019s not over yet!\\n"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "What?!\\nUnbelievable!\rI picked the wrong Pok\u00e9mon!\\n"
+        },
+        {
+          "type": "TRMSG_WIN",
+          "message": "Yeah!\\nAm I great or what?\\n"
+        }
+      ]
     },
     {
       "type": "TRTYPE_MON",
@@ -816,7 +834,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_FALKNER",
+      "class": "TRAINERCLASS_LEADER_BROCK",
       "name": "{TRNAME}Falkner",
       "items": [],
       "ai_flags": 3,
@@ -867,7 +885,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BUGSY",
+      "class": "TRAINERCLASS_LEADER_MISTY",
       "name": "{TRNAME}Bugsy",
       "items": [
         "ITEM_SUPER_POTION"
@@ -1260,7 +1278,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_WHITNEY",
+      "class": "TRAINERCLASS_LEADER_LT_SURGE",
       "name": "{TRNAME}Whitney",
       "items": [
         "ITEM_SUPER_POTION",
@@ -1317,7 +1335,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MORTY",
+      "class": "TRAINERCLASS_LEADER_ERIKA",
       "name": "{TRNAME}Morty",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1404,7 +1422,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_PRYCE",
+      "class": "TRAINERCLASS_LEADER_KOGA",
       "name": "{TRNAME}Pryce",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1476,7 +1494,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JASMINE",
+      "class": "TRAINERCLASS_LEADER_SABRINA",
       "name": "{TRNAME}Jasmine",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1548,7 +1566,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CHUCK",
+      "class": "TRAINERCLASS_LEADER_BLAINE",
       "name": "{TRNAME}Chuck",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1605,7 +1623,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1786,7 +1804,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Colette",
       "items": [],
       "ai_flags": 7,
@@ -1885,7 +1903,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_GUITARIST",
+      "class": "TRAINERCLASS_ROCKER",
       "name": "{TRNAME}Clyde",
       "items": [],
       "ai_flags": 1,
@@ -1949,7 +1967,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Chow",
       "items": [],
       "ai_flags": 7,
@@ -2281,7 +2299,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Nico",
       "items": [],
       "ai_flags": 7,
@@ -2329,7 +2347,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Edmond",
       "items": [],
       "ai_flags": 7,
@@ -2377,7 +2395,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Jin",
       "items": [],
       "ai_flags": 7,
@@ -2409,7 +2427,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Troy",
       "items": [],
       "ai_flags": 7,
@@ -2449,7 +2467,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Neal",
       "items": [],
       "ai_flags": 7,
@@ -3808,7 +3826,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -3827,7 +3845,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -9622,7 +9640,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_GUITARIST",
+      "class": "TRAINERCLASS_ROCKER",
       "name": "{TRNAME}Vincent",
       "items": [],
       "ai_flags": 1,
@@ -10320,7 +10338,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_WILL",
+      "class": "TRAINERCLASS_ELITE_FOUR_LORELEI",
       "name": "{TRNAME}Will",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10422,7 +10440,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KAREN",
+      "class": "TRAINERCLASS_ELITE_FOUR_LANCE",
       "name": "{TRNAME}Karen",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10524,7 +10542,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KOGA",
+      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
       "name": "{TRNAME}Koga",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10854,7 +10872,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BROCK",
+      "class": "TRAINERCLASS_LEADER_09",
       "name": "{TRNAME}Brock",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10957,7 +10975,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MISTY",
+      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
       "name": "{TRNAME}Misty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11045,7 +11063,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_LT_SURGE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_GREEN",
       "name": "{TRNAME}Lt. Surge",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11148,7 +11166,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_ERIKA",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JAMES",
       "name": "{TRNAME}Erika",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11236,7 +11254,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JANINE",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JESSIE",
       "name": "{TRNAME}Janine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11339,7 +11357,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_SABRINA",
+      "class": "TRAINERCLASS_LEADER_14",
       "name": "{TRNAME}Sabrina",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11412,7 +11430,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLAINE",
+      "class": "TRAINERCLASS_LEADER_15",
       "name": "{TRNAME}Blaine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11485,7 +11503,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
+      "class": "TRAINERCLASS_PKMN_TRAINER_ASH",
       "name": "{TRNAME}Red",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11600,7 +11618,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLUE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_YELLOW",
       "name": "{TRNAME}Blue",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -17400,7 +17418,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -19004,7 +19022,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+      "class": "TRAINERCLASS_ELITE_FOUR_AGATHA",
       "name": "{TRNAME}Bruno",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -19430,7 +19448,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Shirley",
       "items": [],
       "ai_flags": 7,
@@ -21766,7 +21784,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_EXECUTIVE_PROTON",
+      "class": "TRAINERCLASS_EXECUTIVE_ORION",
       "name": "{TRNAME}Proton",
       "items": [],
       "ai_flags": 7,
@@ -21806,7 +21824,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_EXECUTIVE_PETREL",
+      "class": "TRAINERCLASS_EXECUTIVE_CONSTANTIN",
       "name": "{TRNAME}Petrel",
       "items": [],
       "ai_flags": 7,
@@ -21914,7 +21932,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_EXECUTIVE_PETREL",
+      "class": "TRAINERCLASS_EXECUTIVE_CONSTANTIN",
       "name": "{TRNAME}Petrel",
       "items": [],
       "ai_flags": 7,
@@ -24530,7 +24548,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24569,7 +24587,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24608,7 +24626,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24841,7 +24859,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Zac & Jen",
       "items": [],
       "ai_flags": 7,
@@ -25539,7 +25557,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Clarice",
       "items": [],
       "ai_flags": 7,
@@ -28384,7 +28402,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -28416,7 +28434,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -28448,7 +28466,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -30622,7 +30640,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Elan & Ida",
       "items": [],
       "ai_flags": 7,
@@ -31447,7 +31465,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_WILL",
+      "class": "TRAINERCLASS_ELITE_FOUR_LORELEI",
       "name": "{TRNAME}Will",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31564,7 +31582,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KOGA",
+      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
       "name": "{TRNAME}Koga",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31681,7 +31699,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+      "class": "TRAINERCLASS_ELITE_FOUR_AGATHA",
       "name": "{TRNAME}Bruno",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31798,7 +31816,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KAREN",
+      "class": "TRAINERCLASS_ELITE_FOUR_LANCE",
       "name": "{TRNAME}Karen",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31915,7 +31933,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_EXECUTIVE_PROTON",
+      "class": "TRAINERCLASS_EXECUTIVE_ORION",
       "name": "{TRNAME}Proton",
       "items": [],
       "ai_flags": 7,
@@ -32070,7 +32088,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_FALKNER",
+      "class": "TRAINERCLASS_LEADER_BROCK",
       "name": "{TRNAME}Falkner",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32188,7 +32206,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BUGSY",
+      "class": "TRAINERCLASS_LEADER_MISTY",
       "name": "{TRNAME}Bugsy",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32306,7 +32324,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_WHITNEY",
+      "class": "TRAINERCLASS_LEADER_LT_SURGE",
       "name": "{TRNAME}Whitney",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32424,7 +32442,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MORTY",
+      "class": "TRAINERCLASS_LEADER_ERIKA",
       "name": "{TRNAME}Morty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32542,7 +32560,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_PRYCE",
+      "class": "TRAINERCLASS_LEADER_KOGA",
       "name": "{TRNAME}Pryce",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32660,7 +32678,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JASMINE",
+      "class": "TRAINERCLASS_LEADER_SABRINA",
       "name": "{TRNAME}Jasmine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32778,7 +32796,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CHUCK",
+      "class": "TRAINERCLASS_LEADER_BLAINE",
       "name": "{TRNAME}Chuck",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32896,7 +32914,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33014,7 +33032,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BROCK",
+      "class": "TRAINERCLASS_LEADER_09",
       "name": "{TRNAME}Brock",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33132,7 +33150,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MISTY",
+      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
       "name": "{TRNAME}Misty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33250,7 +33268,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_LT_SURGE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_GREEN",
       "name": "{TRNAME}Lt. Surge",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33368,7 +33386,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_ERIKA",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JAMES",
       "name": "{TRNAME}Erika",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33486,7 +33504,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JANINE",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JESSIE",
       "name": "{TRNAME}Janine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33604,7 +33622,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_SABRINA",
+      "class": "TRAINERCLASS_LEADER_14",
       "name": "{TRNAME}Sabrina",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33722,7 +33740,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLAINE",
+      "class": "TRAINERCLASS_LEADER_15",
       "name": "{TRNAME}Blaine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33840,7 +33858,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLUE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_YELLOW",
       "name": "{TRNAME}Blue",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -34043,7 +34061,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Thom & Kae",
       "items": [],
       "ai_flags": 7,
@@ -34267,7 +34285,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_FULL_RESTORE",

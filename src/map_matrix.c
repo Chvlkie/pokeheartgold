@@ -174,7 +174,7 @@ BOOL ShouldUseAlternateLakeOfRage(SaveData* saveData, u32 map_no) {
         return FALSE;
     } else {
         sub_02066C1C(state, 1);
-        return TRUE;
+        return FALSE;
     }
 }
 

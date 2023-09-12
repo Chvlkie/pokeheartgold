@@ -1,14 +1,14 @@
 #ifndef POKEHEARTGOLD_CONSTANTS_BADGE_H
 #define POKEHEARTGOLD_CONSTANTS_BADGE_H
 
-#define BADGE_ZEPHYR    0
-#define BADGE_HIVE      1
-#define BADGE_PLAIN     2
-#define BADGE_FOG       3
-#define BADGE_STORM     4
-#define BADGE_MINERAL   5
-#define BADGE_GLACIER   6
-#define BADGE_RISING    7
+#define BADGE_01		0
+#define BADGE_02		1
+#define BADGE_03		2
+#define BADGE_04		3
+#define BADGE_05		4
+#define BADGE_06		5
+#define BADGE_07		6
+#define BADGE_08		7
 
 #define BADGE_BOULDER   8
 #define BADGE_CASCADE   9

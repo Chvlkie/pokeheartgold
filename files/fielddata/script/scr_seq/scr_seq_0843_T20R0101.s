@@ -342,7 +342,7 @@ _04A1:
 	goto_if_set FLAG_UNK_0F2, _0541
 	goto_if_set FLAG_UNK_108, _051B
 	goto_if_set FLAG_UNK_109, _051B
-	check_badge BADGE_RISING, VAR_TEMP_x4002
+	check_badge BADGE_08, VAR_TEMP_x4002
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _0510
 	compare VAR_TEMP_x400F, 1
