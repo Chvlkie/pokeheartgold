@@ -98,3 +98,4 @@ diff.txt
 # clangd
 .cache
 compile_commands.json
+/.vs
