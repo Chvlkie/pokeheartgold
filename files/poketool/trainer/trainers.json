@@ -15,95 +15,113 @@
       "class": "TRAINERCLASS_RIVAL",
       "name": "{TRNAME}Silver",
       "items": [],
-      "ai_flags": 35,
+      "ai_flags": 1,
       "double": 0,
       "party": [
         {
-          "difficulty": 30,
+          "difficulty": 10,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 14,
-          "species": "SPECIES_GASTLY",
-          "capsule": 0
-        },
-        {
-          "difficulty": 30,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 16,
-          "species": "SPECIES_ZUBAT",
-          "capsule": 0
-        },
-        {
-          "difficulty": 30,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 18,
-          "species": "SPECIES_BAYLEEF",
+          "level": 5,
+          "species": "SPECIES_CHARMANDER",
           "capsule": 0
         }
       ],
       "messages": [
         {
           "type": "TRMSG_LAST_POKE",
-          "message": "Say, you\u2019ve got a lot of nerve,\\ncoming here...\\n"
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
         },
         {
           "type": "TRMSG_LAST_POKE_HALF",
-          "message": "That\u2019s ridiculous. There\u2019s no way\\nI could lose to a wimp like you!\\n"
+          "message": "It\u2019s not over yet!\\n"
         },
         {
           "type": "TRMSG_LOSE",
-          "message": "...Humph!\\nUseless Pok\u00e9mon!\\rListen, you. You won only because my\\nPok\u00e9mon were weak.\\n"
+          "message": "What?!\\nUnbelievable!\\fI picked the wrong Pok\u00e9mon!\\n"
         },
         {
           "type": "TRMSG_WIN",
-          "message": "...Humph!\\nI knew you were lying.\\n"
+          "message": "Yeah!\\nAm I great or what?\\n"
+        }
+      ]
+    },
+     {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_RIVAL",
+      "name": "{TRNAME}Silver",
+      "items": [],
+      "ai_flags": 1,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 10,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 5,
+          "species": "SPECIES_SQUIRTLE",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_LAST_POKE",
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
+        },
+        {
+          "type": "TRMSG_LAST_POKE_HALF",
+          "message": "It\u2019s not over yet!\\n"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "What?!\\nUnbelievable!\\fI picked the wrong Pok\u00e9mon!\\n"
+        },
+        {
+          "type": "TRMSG_WIN",
+          "message": "Yeah!\\nAm I great or what?\\n"
+        }
+      ]
+    },
+     {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_RIVAL",
+      "name": "{TRNAME}Silver",
+      "items": [],
+      "ai_flags": 1,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 10,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 5,
+          "species": "SPECIES_BULBASAUR",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_LAST_POKE",
+          "message": "Let\u2019s check out our Pok\u00e9mon\\nC\u2019mon!\\n"
+        },
+        {
+          "type": "TRMSG_LAST_POKE_HALF",
+          "message": "It\u2019s not over yet!\\n"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "What?!\\nUnbelievable!\\fI picked the wrong Pok\u00e9mon!\\n"
+        },
+        {
+          "type": "TRMSG_WIN",
+          "message": "Yeah!\\nAm I great or what?\\n"
         }
       ]
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_RIVAL",
-      "name": "{TRNAME}Silver",
-      "items": [],
-      "ai_flags": 1,
-      "double": 0,
-      "party": [
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 5,
-          "species": "SPECIES_CYNDAQUIL",
-          "capsule": 0
-        }
-      ],
-      "messages": []
-    },
-    {
-      "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_RIVAL",
-      "name": "{TRNAME}Silver",
-      "items": [],
-      "ai_flags": 1,
-      "double": 0,
-      "party": [
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 5,
-          "species": "SPECIES_TOTODILE",
-          "capsule": 0
-        }
-      ],
-      "messages": []
-    },
-    {
-      "type": "TRTYPE_MON",
       "class": "TRAINERCLASS_BUG_CATCHER",
-      "name": "{TRNAME}Wade",
+      "name": "{TRNAME}Rick",
       "items": [],
       "ai_flags": 1,
       "double": 0,
@@ -112,23 +130,7 @@
           "difficulty": 0,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 2,
-          "species": "SPECIES_CATERPIE",
-          "capsule": 0
-        },
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 2,
-          "species": "SPECIES_CATERPIE",
-          "capsule": 0
-        },
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 3,
+          "level": 6,
           "species": "SPECIES_WEEDLE",
           "capsule": 0
         },
@@ -136,7 +138,7 @@
           "difficulty": 0,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 2,
+          "level": 6,
           "species": "SPECIES_CATERPIE",
           "capsule": 0
         }
@@ -144,287 +146,255 @@
       "messages": [
         {
           "type": "TRMSG_INTRO",
-          "message": "I caught a bunch of Pok\u00e9mon.\\nLet me battle with you!\\r"
+          "message": "Hey! You have Pok\u00e9mon!\\nCome on!\\rLet\u2019s battle \u2019em!\\r"
         },
         {
           "type": "TRMSG_LOSE",
-          "message": "Awwwww...\\n"
+          "message": "No!\\nCaterpie can\u2019t hack it!\\n"
         },
         {
           "type": "TRMSG_AFTER",
-          "message": "You can catch Pok\u00e9mon even if you have\\nsix with you.\\rIf you catch one, it\u2019ll go to your Box\\nautomatically.\\n"
-        },
-        {
-          "type": "TRMSG_PHONE_REMATCH_INTRO",
-          "message": "I was waiting for you. Let\u2019s battle!\\r"
+          "message": "Ssh! You\u2019ll scare the bugs away.\\nAnother time, okay?\\n"
         }
       ]
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_BEAUTY",
-      "name": "{TRNAME}Victoria",
+      "class": "TRAINERCLASS_BUG_CATCHER",
+      "name": "{TRNAME}Doug",
       "items": [],
       "ai_flags": 1,
       "double": 0,
       "party": [
         {
-          "difficulty": 10,
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_WEEDLE",
+          "capsule": 0
+        },
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_KAKUNA",
+          "capsule": 0
+        },
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_WEEDLE",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_INTRO",
+          "message": "Yo!\\n You can\u2019t jam out if you\u2019re a\\fPok\u00e9mon Trainer!\\r"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "I ran out of Pok\u00e9mon!\\n"
+        },
+        {
+          "type": "TRMSG_AFTER",
+          "message": "That totally stinks! I\u2019m going to\\ncatch some stronger ones!\\n"
+        }
+      ]
+    },
+    {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_BUG_CATCHER",
+      "name": "{TRNAME}Anthony",
+      "items": [],
+      "ai_flags": 1,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_CATERPIE",
+          "capsule": 0
+        },
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 8,
+          "species": "SPECIES_CATERPIE",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_INTRO",
+          "message": "I might be little, but I won\u2019t like\\nit if you go easy on me!\\r"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "Oh, boo.\\nNothing went right.\\n"
+        },
+        {
+          "type": "TRMSG_AFTER",
+          "message": "I lost some of my allowance.\\n"
+        }
+      ]
+    },
+    {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_BUG_CATCHER",
+      "name": "{TRNAME}Charlie",
+      "items": [],
+      "ai_flags": 1,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_METAPOD",
+          "capsule": 0
+        },
+        {
+          "difficulty": 0,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
+          "level": 7,
+          "species": "SPECIES_CATERPIE",
+          "capsule": 0
+        },
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
+          "level": 7,
+          "species": "SPECIES_METAPOD",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_INTRO",
+          "message": "Did you know that Pok\u00e9mon evolve?\\r"
+        },
+        {
+          "type": "TRMSG_LOSE",
+          "message": "Oh!\\nI lost!\\n"
+        },
+        {
+          "type": "TRMSG_AFTER",
+          "message": "Bug Pok\u00e9mon evolve quickly.\\nThey\u2019re a lot of fun!\\n"
+        }
+      ]
+    },
+    {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_BUG_CATCHER",
+      "name": "{TRNAME}Sammy",
+      "items": [],
+      "ai_flags": 1,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 0,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 9,
-          "species": "SPECIES_SENTRET",
-          "capsule": 0
-        },
-        {
-          "difficulty": 10,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 13,
-          "species": "SPECIES_SENTRET",
-          "capsule": 0
-        },
-        {
-          "difficulty": 10,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 16,
-          "species": "SPECIES_SENTRET",
+          "species": "SPECIES_WEEDLE",
           "capsule": 0
         }
       ],
       "messages": [
         {
           "type": "TRMSG_INTRO",
-          "message": "Oh, you are a cute little Trainer!\\nI like you, but I won\u2019t hold back!\\r"
+          "message": "Hey, wait up!\\nWhat\u2019s the hurry? Why the rush?\\r"
         },
         {
           "type": "TRMSG_LOSE",
-          "message": "Let\u2019s see...\\nOops, it\u2019s over?\\n"
+          "message": "I give!\\nYou\u2019re good at this!\\n"
         },
         {
           "type": "TRMSG_AFTER",
-          "message": "Wow, you must be good to beat me!\\nKeep it up!\\n"
+          "message": "Sometimes, you can find stuff on\\nthe ground.\\rI\u2019m looking for the stuff I \\ndropped. Can you help me?\\n"
         }
       ]
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_POLICEMAN",
-      "name": "{TRNAME}Keith",
+      "class": "TRAINERCLASS_CAMPER",
+      "name": "{TRNAME}Liam",
       "items": [],
-      "ai_flags": 5,
+      "ai_flags": 2,
       "double": 0,
       "party": [
         {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 17,
-          "species": "SPECIES_GROWLITHE",
-          "capsule": 0
-        }
-      ],
-      "messages": [
-        {
-          "type": "TRMSG_INTRO",
-          "message": "What\u2019s with you?\\nWhat are you doing?\\r"
-        },
-        {
-          "type": "TRMSG_LOSE",
-          "message": "You don\u2019t have to worry about the night\\nwhen you\u2019re with strong Pok\u00e9mon.\\n"
-        },
-        {
-          "type": "TRMSG_AFTER",
-          "message": "The group stealing other people\u2019s\\nPok\u00e9mon seems to be growing lately.\\fYou should be careful, too.\\n"
-        }
-      ]
-    },
-    {
-      "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_JUGGLER",
-      "name": "{TRNAME}Irwin",
-      "items": [],
-      "ai_flags": 1,
-      "double": 0,
-      "party": [
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 2,
-          "species": "SPECIES_VOLTORB",
-          "capsule": 0
-        },
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 6,
-          "species": "SPECIES_VOLTORB",
-          "capsule": 0
-        },
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 10,
-          "species": "SPECIES_VOLTORB",
-          "capsule": 0
-        },
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 14,
-          "species": "SPECIES_VOLTORB",
-          "capsule": 0
-        }
-      ],
-      "messages": [
-        {
-          "type": "TRMSG_INTRO",
-          "message": "Behold my dexterity and grace!\\r"
-        },
-        {
-          "type": "TRMSG_LOSE",
-          "message": "Whew! That was a jolt!\\n"
-        },
-        {
-          "type": "TRMSG_AFTER",
-          "message": "I was going to dazzle you with my prize\\nPok\u00e9mon. But your prowess\\felectrified me!\\n"
-        },
-        {
-          "type": "TRMSG_PHONE_REMATCH_INTRO",
-          "message": "Yo! I\u2019ve been waiting!\\r"
-        }
-      ]
-    },
-    {
-      "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_YOUNGSTER",
-      "name": "{TRNAME}Joey",
-      "items": [],
-      "ai_flags": 1,
-      "double": 0,
-      "party": [
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 4,
-          "species": "SPECIES_RATTATA",
-          "capsule": 0
-        }
-      ],
-      "messages": [
-        {
-          "type": "TRMSG_INTRO",
-          "message": "I just lost, so I\u2019m trying to find\\nmore Pok\u00e9mon.\\rWait! You look weak! Come on,\\nlet\u2019s battle!\\r"
-        },
-        {
-          "type": "TRMSG_LOSE",
-          "message": "Oh...\\nI\u2019m out of Pok\u00e9mon that can fight.\\n"
-        },
-        {
-          "type": "TRMSG_AFTER",
-          "message": "I knew it--if you don\u2019t have many\\nPok\u00e9mon, battles are harder!\\fI need to catch more Pok\u00e9mon!\\n"
-        },
-        {
-          "type": "TRMSG_PHONE_REMATCH_INTRO",
-          "message": "I\u2019ve been waiting!\\nLet\u2019s battle now!\\r"
-        }
-      ]
-    },
-    {
-      "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SWIMMER_F",
-      "name": "{TRNAME}Elaine",
-      "items": [],
-      "ai_flags": 1,
-      "double": 0,
-      "party": [
-        {
-          "difficulty": 0,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 21,
-          "species": "SPECIES_STARYU",
-          "capsule": 0
-        }
-      ],
-      "messages": [
-        {
-          "type": "TRMSG_INTRO",
-          "message": "Are you going to Cianwood?\\rHow about a quick battle first?\\r"
-        },
-        {
-          "type": "TRMSG_LOSE",
-          "message": "I lost that one!\\n"
-        },
-        {
-          "type": "TRMSG_AFTER",
-          "message": "I\u2019d say I\u2019m a better swimmer than you.\\nYeah!\\n"
-        }
-      ]
-    },
-    {
-      "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TWINS",
-      "name": "{TRNAME}Amy & Mimi",
-      "items": [],
-      "ai_flags": 1,
-      "double": 2,
-      "party": [
-        {
-          "difficulty": 10,
+          "difficulty": 2,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
           "level": 10,
-          "species": "SPECIES_SPINARAK",
+          "species": "SPECIES_GEODUDE",
           "capsule": 0
         },
-        {
-          "difficulty": 10,
+         {
+          "difficulty": 2,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 10,
-          "species": "SPECIES_LEDYBA",
+          "level": 11,
+          "species": "SPECIES_SANDSHREW",
           "capsule": 0
         }
       ],
       "messages": [
         {
-          "type": "TRMSG_DBL_INTRO_1",
-          "message": "Amy: Hey, are you challenging the\\nLeader? No way!\\r"
+          "type": "TRMSG_INTRO",
+          "message": "Stop right there, kid!\\rYou\u2019re ten thousand light-years\\nfrom facing Brock!\\r"
         },
         {
-          "type": "TRMSG_DBL_LOSE_1",
-          "message": "Amy: Oh, goodness!"
+          "type": "TRMSG_LOSE",
+          "message": "Light-years isn\u2019t time.\\nIt measaures distance!\\n"
         },
         {
-          "type": "TRMSG_DBL_AFTER_1",
-          "message": "Amy: You\u2019re really strong!"
+          "type": "TRMSG_AFTER",
+          "message": "You\u2019re pretty hot.\\nBut not as hot as Brock!\\n"
+        }
+      ]
+    },
+      {
+      "type": "TRTYPE_MON",
+      "class": "TRAINERCLASS_HIKER",
+      "name": "{TRNAME}Edwin",
+      "items": [],
+      "ai_flags": 2,
+      "double": 0,
+      "party": [
+        {
+          "difficulty": 2,
+          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
+          "level": 10,
+          "species": "SPECIES_GRAVELER",
+          "capsule": 0
+        }
+      ],
+      "messages": [
+        {
+          "type": "TRMSG_INTRO",
+          "message": "The Trainers of this Gym use\\nRock-type Pok\u00e9mon.\\rRock-type Pok\u00e9mon have high Defense.\\nBattles could end up going a long time.\\rAre you ready for this?\\r"
         },
         {
-          "type": "TRMSG_DBL_1POKE_1",
-          "message": "Amy: You have only one Pok\u00e9mon?\\nThat\u2019s kind of lonely..."
+          "type": "TRMSG_LOSE",
+          "message": "Phew...\\nBroken into pieces.\\n"
         },
         {
-          "type": "TRMSG_DBL_INTRO_2",
-          "message": "Mimi: If you insist, we\u2019ll be\\nyour opponents.\\r"
-        },
-        {
-          "type": "TRMSG_DBL_LOSE_2",
-          "message": "Mimi: I\u2019m feeling a bit dizzy...\\n"
-        },
-        {
-          "type": "TRMSG_DBL_AFTER_2",
-          "message": "Mimi: Our bug Pok\u00e9mon lost! Oh, what\\na shame.\\n"
-        },
-        {
-          "type": "TRMSG_DBL_1POKE_2",
-          "message": "Mimi: It\u2019s a little unfair to battle\\nsomeone who has only one Pok\u00e9mon.\\n"
+          "type": "TRMSG_AFTER",
+          "message": "Brock is an expert in Rock-type Pok\u00e9mon!\\n"
         }
       ]
     },
@@ -816,22 +786,22 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_FALKNER",
-      "name": "{TRNAME}Falkner",
+      "class": "TRAINERCLASS_LEADER_BROCK",
+      "name": "{TRNAME}Brock",
       "items": [],
       "ai_flags": 3,
       "double": 0,
       "party": [
         {
-          "difficulty": 50,
+          "difficulty": 30,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 9,
-          "species": "SPECIES_PIDGEY",
+          "level": 12,
+          "species": "SPECIES_GEODUDE",
           "item": "ITEM_NONE",
           "moves": [
             "MOVE_TACKLE",
-            "MOVE_SAND_ATTACK"
+            "MOVE_DEFENSE_CURL"
           ],
           "capsule": 0
         },
@@ -840,12 +810,12 @@
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
           "level": 13,
-          "species": "SPECIES_PIDGEOTTO",
-          "item": "ITEM_NONE",
+          "species": "SPECIES_ONIX",
+          "item": "ITEM_POTION",
           "moves": [
             "MOVE_TACKLE",
-            "MOVE_ROOST",
-            "MOVE_GUST"
+            "MOVE_BIND",
+            "MOVE_ROCK_TOMB"
           ],
           "capsule": 0
         }
@@ -853,22 +823,22 @@
       "messages": [
         {
           "type": "TRMSG_LAST_POKE",
-          "message": "The wind is finally with us!\\n"
+          "message": "Onix will put you in a bind!\\n"
         },
         {
           "type": "TRMSG_LAST_POKE_HALF",
-          "message": "We can still fly!\\n"
+          "message": "Ow ow ow ow ow...\\n"
         },
         {
           "type": "TRMSG_LOSE",
-          "message": "I understand...\\nI\u2019ll bow out gracefully.\\n"
+          "message": "I took you for granted, and so\\nI lost.\\n"
         }
       ]
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BUGSY",
-      "name": "{TRNAME}Bugsy",
+      "class": "TRAINERCLASS_LEADER_MISTY",
+      "name": "{TRNAME}Misty",
       "items": [
         "ITEM_SUPER_POTION"
       ],
@@ -879,38 +849,29 @@
           "difficulty": 80,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
           "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
-          "level": 17,
-          "species": "SPECIES_SCYTHER",
-          "item": "ITEM_SITRUS_BERRY",
+          "level": 18,
+          "species": "SPECIES_STARYU",
+          "item": "ITEM_ORAN_BERRY",
           "moves": [
-            "MOVE_QUICK_ATTACK",
-            "MOVE_LEER",
-            "MOVE_U_TURN",
-            "MOVE_FOCUS_ENERGY"
+            "MOVE_TACKLE",
+            "MOVE_HARDEN",
+            "MOVE_RECOVER",
+            "MOVE_WATER_PULSE"
           ],
           "capsule": 0
         },
         {
           "difficulty": 80,
           "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 15,
-          "species": "SPECIES_KAKUNA",
+          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_SECOND",
+          "level": 21,
+          "species": "SPECIES_STARMIE",
           "item": "ITEM_NONE",
           "moves": [
-            "MOVE_POISON_STING"
-          ],
-          "capsule": 0
-        },
-        {
-          "difficulty": 80,
-          "genderOverride": "TRPOKE_GENDER_OVERRIDE_OFF",
-          "abilityOverride": "TRPOKE_ABILITY_OVERRIDE_OFF",
-          "level": 15,
-          "species": "SPECIES_METAPOD",
-          "item": "ITEM_NONE",
-          "moves": [
-            "MOVE_TACKLE"
+            "MOVE_SWIFT",
+            "MOVE_RECOVER",
+            "MOVE_RAPID_SPIN",
+            "MOVE_WATER_PULSE"
           ],
           "capsule": 0
         }
@@ -1260,7 +1221,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_WHITNEY",
+      "class": "TRAINERCLASS_LEADER_LT_SURGE",
       "name": "{TRNAME}Whitney",
       "items": [
         "ITEM_SUPER_POTION",
@@ -1317,7 +1278,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MORTY",
+      "class": "TRAINERCLASS_LEADER_ERIKA",
       "name": "{TRNAME}Morty",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1404,7 +1365,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_PRYCE",
+      "class": "TRAINERCLASS_LEADER_KOGA",
       "name": "{TRNAME}Pryce",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1476,7 +1437,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JASMINE",
+      "class": "TRAINERCLASS_LEADER_SABRINA",
       "name": "{TRNAME}Jasmine",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1548,7 +1509,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CHUCK",
+      "class": "TRAINERCLASS_LEADER_BLAINE",
       "name": "{TRNAME}Chuck",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1605,7 +1566,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_HYPER_POTION",
@@ -1786,7 +1747,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Colette",
       "items": [],
       "ai_flags": 7,
@@ -1885,7 +1846,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_GUITARIST",
+      "class": "TRAINERCLASS_ROCKER",
       "name": "{TRNAME}Clyde",
       "items": [],
       "ai_flags": 1,
@@ -1949,7 +1910,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Chow",
       "items": [],
       "ai_flags": 7,
@@ -2281,7 +2242,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Nico",
       "items": [],
       "ai_flags": 7,
@@ -2329,7 +2290,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Edmond",
       "items": [],
       "ai_flags": 7,
@@ -2377,7 +2338,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Jin",
       "items": [],
       "ai_flags": 7,
@@ -2409,7 +2370,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Troy",
       "items": [],
       "ai_flags": 7,
@@ -2449,7 +2410,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Neal",
       "items": [],
       "ai_flags": 7,
@@ -3808,7 +3769,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -3827,7 +3788,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -9622,7 +9583,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_GUITARIST",
+      "class": "TRAINERCLASS_ROCKER",
       "name": "{TRNAME}Vincent",
       "items": [],
       "ai_flags": 1,
@@ -10320,7 +10281,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_WILL",
+      "class": "TRAINERCLASS_ELITE_FOUR_LORELEI",
       "name": "{TRNAME}Will",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10422,7 +10383,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KAREN",
+      "class": "TRAINERCLASS_ELITE_FOUR_LANCE",
       "name": "{TRNAME}Karen",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10524,7 +10485,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KOGA",
+      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
       "name": "{TRNAME}Koga",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10854,7 +10815,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BROCK",
+      "class": "TRAINERCLASS_LEADER_09",
       "name": "{TRNAME}Brock",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -10957,7 +10918,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MISTY",
+      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
       "name": "{TRNAME}Misty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11045,7 +11006,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_LT_SURGE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_GREEN",
       "name": "{TRNAME}Lt. Surge",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11148,7 +11109,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_ERIKA",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JAMES",
       "name": "{TRNAME}Erika",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11236,7 +11197,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JANINE",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JESSIE",
       "name": "{TRNAME}Janine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11339,7 +11300,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_SABRINA",
+      "class": "TRAINERCLASS_LEADER_14",
       "name": "{TRNAME}Sabrina",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11412,7 +11373,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLAINE",
+      "class": "TRAINERCLASS_LEADER_15",
       "name": "{TRNAME}Blaine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11485,7 +11446,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
+      "class": "TRAINERCLASS_PKMN_TRAINER_ASH",
       "name": "{TRNAME}Red",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -11600,7 +11561,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLUE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_YELLOW",
       "name": "{TRNAME}Blue",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -17400,7 +17361,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -19004,7 +18965,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+      "class": "TRAINERCLASS_ELITE_FOUR_AGATHA",
       "name": "{TRNAME}Bruno",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -19430,7 +19391,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Shirley",
       "items": [],
       "ai_flags": 7,
@@ -21766,7 +21727,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_EXECUTIVE_PROTON",
+      "class": "TRAINERCLASS_EXECUTIVE_ORION",
       "name": "{TRNAME}Proton",
       "items": [],
       "ai_flags": 7,
@@ -21806,7 +21767,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_EXECUTIVE_PETREL",
+      "class": "TRAINERCLASS_EXECUTIVE_CONSTANTIN",
       "name": "{TRNAME}Petrel",
       "items": [],
       "ai_flags": 7,
@@ -21914,7 +21875,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_EXECUTIVE_PETREL",
+      "class": "TRAINERCLASS_EXECUTIVE_CONSTANTIN",
       "name": "{TRNAME}Petrel",
       "items": [],
       "ai_flags": 7,
@@ -24530,7 +24491,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24569,7 +24530,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24608,7 +24569,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_SAGE",
+      "class": "TRAINERCLASS_GAMBLER",
       "name": "{TRNAME}Mickey",
       "items": [],
       "ai_flags": 5,
@@ -24841,7 +24802,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Zac & Jen",
       "items": [],
       "ai_flags": 7,
@@ -25539,7 +25500,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Clarice",
       "items": [],
       "ai_flags": 7,
@@ -28384,7 +28345,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -28416,7 +28377,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -28448,7 +28409,7 @@
     },
     {
       "type": "TRTYPE_MON",
-      "class": "TRAINERCLASS_TEACHER",
+      "class": "TRAINERCLASS_SIS_AND_BRO",
       "name": "{TRNAME}Hillary",
       "items": [],
       "ai_flags": 7,
@@ -30622,7 +30583,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Elan & Ida",
       "items": [],
       "ai_flags": 7,
@@ -31447,7 +31408,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_WILL",
+      "class": "TRAINERCLASS_ELITE_FOUR_LORELEI",
       "name": "{TRNAME}Will",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31564,7 +31525,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KOGA",
+      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
       "name": "{TRNAME}Koga",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31681,7 +31642,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+      "class": "TRAINERCLASS_ELITE_FOUR_AGATHA",
       "name": "{TRNAME}Bruno",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31798,7 +31759,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_ELITE_FOUR_KAREN",
+      "class": "TRAINERCLASS_ELITE_FOUR_LANCE",
       "name": "{TRNAME}Karen",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -31915,7 +31876,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_EXECUTIVE_PROTON",
+      "class": "TRAINERCLASS_EXECUTIVE_ORION",
       "name": "{TRNAME}Proton",
       "items": [],
       "ai_flags": 7,
@@ -32070,7 +32031,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_FALKNER",
+      "class": "TRAINERCLASS_LEADER_BROCK",
       "name": "{TRNAME}Falkner",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32188,7 +32149,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BUGSY",
+      "class": "TRAINERCLASS_LEADER_MISTY",
       "name": "{TRNAME}Bugsy",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32306,7 +32267,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_WHITNEY",
+      "class": "TRAINERCLASS_LEADER_LT_SURGE",
       "name": "{TRNAME}Whitney",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32424,7 +32385,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MORTY",
+      "class": "TRAINERCLASS_LEADER_ERIKA",
       "name": "{TRNAME}Morty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32542,7 +32503,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_PRYCE",
+      "class": "TRAINERCLASS_LEADER_KOGA",
       "name": "{TRNAME}Pryce",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32660,7 +32621,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JASMINE",
+      "class": "TRAINERCLASS_LEADER_SABRINA",
       "name": "{TRNAME}Jasmine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32778,7 +32739,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CHUCK",
+      "class": "TRAINERCLASS_LEADER_BLAINE",
       "name": "{TRNAME}Chuck",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -32896,7 +32857,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33014,7 +32975,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BROCK",
+      "class": "TRAINERCLASS_LEADER_09",
       "name": "{TRNAME}Brock",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33132,7 +33093,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_MISTY",
+      "class": "TRAINERCLASS_PKMN_TRAINER_RED",
       "name": "{TRNAME}Misty",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33250,7 +33211,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_LT_SURGE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_GREEN",
       "name": "{TRNAME}Lt. Surge",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33368,7 +33329,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_ERIKA",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JAMES",
       "name": "{TRNAME}Erika",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33486,7 +33447,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_JANINE",
+      "class": "TRAINERCLASS_TEAM_ROCKET_JESSIE",
       "name": "{TRNAME}Janine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33604,7 +33565,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_SABRINA",
+      "class": "TRAINERCLASS_LEADER_14",
       "name": "{TRNAME}Sabrina",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33722,7 +33683,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLAINE",
+      "class": "TRAINERCLASS_LEADER_15",
       "name": "{TRNAME}Blaine",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -33840,7 +33801,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_BLUE",
+      "class": "TRAINERCLASS_PKMN_TRAINER_YELLOW",
       "name": "{TRNAME}Blue",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -34043,7 +34004,7 @@
     },
     {
       "type": "TRTYPE_MON_MOVES",
-      "class": "TRAINERCLASS_DOUBLE_TEAM",
+      "class": "TRAINERCLASS_ACE_DUO",
       "name": "{TRNAME}Thom & Kae",
       "items": [],
       "ai_flags": 7,
@@ -34267,7 +34228,7 @@
     },
     {
       "type": "TRTYPE_MON_ITEM_MOVES",
-      "class": "TRAINERCLASS_LEADER_CLAIR",
+      "class": "TRAINERCLASS_LEADER_GIOVANNI",
       "name": "{TRNAME}Clair",
       "items": [
         "ITEM_FULL_RESTORE",

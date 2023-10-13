@@ -3765,7 +3765,7 @@ _021E775E:
 	ldr r0, [r0]
 	mov r1, #2
 	bl Set2dSpriteAnimSeqNo
-	mov r0, #SPECIES_MARILL
+	mov r0, #SPECIES_PIKACHU
 	add r1, r5, #0
 	bl PlayCry
 	mov r0, #0x37

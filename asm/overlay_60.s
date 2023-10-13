@@ -205,7 +205,7 @@ _021E5A94:
 	mov r1, #0x3c
 	bl GF_SndStartFadeOutBGM
 #ifdef HEARTGOLD
-	mov r0, #SPECIES_HO_OH
+	mov r0, #SPECIES_MEWTWO
 #else
 	mov r0, #SPECIES_LUGIA
 #endif

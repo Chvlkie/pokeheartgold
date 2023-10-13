@@ -63,7 +63,7 @@
 	</row>
 	<row id="msg_0196_00014" index="14">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">POKéGEAR</language>
+		<language name="English">TOWN MAP</language>
 	</row>
 	<row id="msg_0196_00015" index="15">
 		<attribute name="window_context_name">garbage</attribute>
