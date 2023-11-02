@@ -28,18 +28,18 @@ static void BattleSetup_SetParty(BattleSetup* setup, Party* party, int battlerId
 static void BattleSetup_SetProfile(BattleSetup* setup, PlayerProfile* profile, int battlerId);
 static void BattleSetup_SetChatotVoiceClip(BattleSetup* setup, SOUND_CHATOT* chatot, int battlerId);
 static void sub_0205230C(FieldSystem* fieldSystem, PlayerProfile* profile1, PlayerProfile* profile2);
-static u32 sub_02052470(FieldSystem* fieldSystem, u32 battleBg);
+static Terrain sub_02052470(FieldSystem* fieldSystem, BattleBg battleBg);
 static void sub_02052504(BattleSetup* setup, FieldSystem* fieldSystem);
 
 BattleSetup* BattleSetup_New(HeapID heapId, u32 battleTypeFlags) {
     int i;
     BattleSetup* setup = AllocFromHeap(heapId, sizeof(BattleSetup));
     MI_CpuClear8(setup, sizeof(BattleSetup));
-    setup->flags = battleTypeFlags;
-    setup->unk_18C = 0;
+    setup->battleType = battleTypeFlags;
+    setup->battleSpecial = 0;
     setup->winFlag = 0;
-    setup->battleBg = 0;
-    setup->unk_150 = 24;
+    setup->battleBg = BATTLE_BG_GENERAL;
+    setup->terrain = TERRAIN_MAX;
     setup->mapSection = 0;
     setup->timeOfDay = RTC_TIMEOFDAY_MORN;
     setup->evolutionLocation = 0;
@@ -109,7 +109,7 @@ BattleSetup* BattleSetup_New_PalPark(HeapID heapId, int balls) {
 
 BattleSetup* BattleSetup_New_Tutorial(HeapID heapId, FieldSystem* fieldSystem) {
     PlayerProfile* profile = Save_PlayerData_GetProfileAddr(fieldSystem->saveData);
-    OPTIONS* options = Save_PlayerData_GetOptionsAddr(fieldSystem->saveData);
+    Options* options = Save_PlayerData_GetOptionsAddr(fieldSystem->saveData);
     BattleSetup* setup = BattleSetup_New(heapId, BATTLE_TYPE_TUTORIAL);
     setup->saveData = fieldSystem->saveData;
     {
@@ -196,10 +196,10 @@ void sub_02051D18(BattleSetup* setup, FieldSystem* fieldSystem, SaveData* saveDa
     Bag* bag;
     Pokedex* pokedex;
     SOUND_CHATOT* chatot;
-    OPTIONS* options;
+    Options* options;
     LocalFieldData* local;
     BOOL forceNite;
-    u32 battle_bg;
+    BattleBg battle_bg;
 
     profile = Save_PlayerData_GetProfileAddr(saveData);
     party = SaveArray_Party_Get(saveData);
@@ -212,7 +212,7 @@ void sub_02051D18(BattleSetup* setup, FieldSystem* fieldSystem, SaveData* saveDa
     if (fieldSystem != NULL) {
         forceNite = FALSE;
         battle_bg = MapHeader_GetBattleBg(fieldSystem->location->mapId);
-        if (battle_bg == 9 || battle_bg == 10 || battle_bg == 11) {
+        if (battle_bg == BATTLE_BG_CAVE_1 || battle_bg == BATTLE_BG_CAVE_2 || battle_bg == BATTLE_BG_CAVE_3) {
             forceNite = TRUE;
         }
         sub_02052504(setup, fieldSystem);
@@ -225,11 +225,11 @@ void sub_02051D18(BattleSetup* setup, FieldSystem* fieldSystem, SaveData* saveDa
         }
     } else {
         setup->battleBg = MapHeader_GetBattleBg(mapno);
-        setup->unk_150 = 9;
+        setup->terrain = TERRAIN_BUILDING;
         setup->timeOfDay = GF_RTC_GetTimeOfDayByHour(Save_SysInfo_RTC_Get(saveData)->time.hour);
     }
     BattleSetup_SetProfile(setup, profile, BATTLER_PLAYER);
-    if (setup->flags & BATTLE_TYPE_BUG_CONTEST) {
+    if (setup->battleType & BATTLE_TYPE_BUG_CONTEST) {
         Party_InitWithMaxSize(setup->party[BATTLER_PLAYER], 1);
         BattleSetup_AddMonToParty(setup, Party_GetMonByIndex(party, 0), BATTLER_PLAYER);
     } else {
@@ -270,7 +270,7 @@ void BattleSetup_InitForFixedLevelFacility(BattleSetup* setup, FieldSystem *fiel
     Bag* bag;
     Pokedex* pokedex;
     SOUND_CHATOT* chatot;
-    OPTIONS* options;
+    Options* options;
 
     profile = Save_PlayerData_GetProfileAddr(fieldSystem->saveData);
     party = SaveArray_Party_Get(fieldSystem->saveData);
@@ -279,8 +279,8 @@ void BattleSetup_InitForFixedLevelFacility(BattleSetup* setup, FieldSystem *fiel
     chatot = Save_Chatot_Get(fieldSystem->saveData);
     options = Save_PlayerData_GetOptionsAddr(fieldSystem->saveData);
 
-    setup->battleBg = 6;
-    setup->unk_150 = 9;
+    setup->battleBg = BATTLE_BG_BUILDING_1;
+    setup->terrain = TERRAIN_BUILDING;
     BattleSetup_SetProfile(setup, profile, BATTLER_PLAYER);
 
     Pokemon* pokemon = AllocMonZeroed(HEAP_ID_FIELD);
@@ -317,7 +317,7 @@ void sub_020520B0(BattleSetup* setup, FieldSystem *fieldSystem, Party *party, u8
     Bag* bag;
     Pokedex* pokedex;
     SOUND_CHATOT* chatot;
-    OPTIONS* options;
+    Options* options;
     void* fieldSystem_unkA4;
 
     profile = Save_PlayerData_GetProfileAddr(fieldSystem->saveData);
@@ -327,8 +327,8 @@ void sub_020520B0(BattleSetup* setup, FieldSystem *fieldSystem, Party *party, u8
     options = Save_PlayerData_GetOptionsAddr(fieldSystem->saveData);
     fieldSystem_unkA4 = fieldSystem->unkA4;
 
-    setup->battleBg = 6;
-    setup->unk_150 = 9;
+    setup->battleBg = BATTLE_BG_BUILDING_1;
+    setup->terrain = TERRAIN_BUILDING;
     BattleSetup_SetProfile(setup, profile, BATTLER_PLAYER);
 
     if (a4 == NULL) {
@@ -465,62 +465,62 @@ void sub_02052444(BattleSetup* setup, FieldSystem* fieldSystem) {
     Pokedex_Copy(setup->pokedex, pokedex);
 }
 
-static const u32 _020FC4C0[] = {
-    0,
-    7,
-    9,
-    2,
-    4,
-    6,
-    9,
-    9,
-    9,
-    5,
-    5,
-    5,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
+static const Terrain _020FC4C0[] = {
+    [BATTLE_BG_GENERAL]          = TERRAIN_PLAIN,
+    [BATTLE_BG_OCEAN]            = TERRAIN_WATER,
+    [BATTLE_BG_CITY]             = TERRAIN_BUILDING,
+    [BATTLE_BG_FOREST]           = TERRAIN_GRASS,
+    [BATTLE_BG_MOUNTAIN]         = TERRAIN_MOUNTAIN,
+    [BATTLE_BG_SNOW]             = TERRAIN_SNOW,
+    [BATTLE_BG_BUILDING_1]       = TERRAIN_BUILDING,
+    [BATTLE_BG_BUILDING_2]       = TERRAIN_BUILDING,
+    [BATTLE_BG_BUILDING_3]       = TERRAIN_BUILDING,
+    [BATTLE_BG_CAVE_1]           = TERRAIN_CAVE,
+    [BATTLE_BG_CAVE_2]           = TERRAIN_CAVE,
+    [BATTLE_BG_CAVE_3]           = TERRAIN_CAVE,
+    [BATTLE_BG_WILL]             = TERRAIN_WILL,
+    [BATTLE_BG_KOGA]             = TERRAIN_KOGA,
+    [BATTLE_BG_BRUNO]            = TERRAIN_BRUNO,
+    [BATTLE_BG_KAREN]            = TERRAIN_KAREN,
+    [BATTLE_BG_LANCE]            = TERRAIN_LANCE,
+    [BATTLE_BG_DISTORTION_WORLD] = TERRAIN_DISTORTION_WORLD,
+    [BATTLE_BG_BATTLE_TOWER]     = TERRAIN_BATTLE_TOWER,
+    [BATTLE_BG_BATTLE_FACTORY]   = TERRAIN_BATTLE_FACTORY,
+    [BATTLE_BG_BATTLE_ARCADE]    = TERRAIN_BATTLE_ARCADE,
+    [BATTLE_BG_BATTLE_CASTLE]    = TERRAIN_BATTLE_CASTLE,
+    [BATTLE_BG_BATTLE_HALL]      = TERRAIN_BATTLE_HALL,
 };
 
-static u32 sub_02052470(FieldSystem* fieldSystem, u32 battleBg) {
+static Terrain sub_02052470(FieldSystem* fieldSystem, BattleBg battleBg) {
     u8 behavior = GetMetatileBehaviorAt(fieldSystem, fieldSystem->location->x, fieldSystem->location->y);
 
     if (sub_0205B828(behavior)) {
-        return 8;
+        return TERRAIN_ICE;
     }
     if (MetatileBehavior_IsEncounterGrass(behavior) || sub_0205B6F4(behavior)) {
-        return 2;
+        return TERRAIN_GRASS;
     }
     if (sub_0205B798(behavior)) {
-        return 1;
+        return TERRAIN_SAND;
     }
     if (sub_0205B8B8(behavior)) {
-        return 6;
+        return TERRAIN_SNOW;
     }
     if (sub_0205B8AC(behavior)) {
-        return 10;
+        return TERRAIN_GREAT_MARSH;
     }
     if (sub_0205B8D0(behavior)) {
-        return 5;
+        return TERRAIN_CAVE;
     }
     if (MetatileBehavior_IsSurfableWater(behavior)) {
-        return 7;
+        return TERRAIN_WATER;
     }
     if (battleBg < NELEMS(_020FC4C0)) {
         return _020FC4C0[battleBg];
     }
 
-    GF_ASSERT(0);
-    return NELEMS(_020FC4C0) + 1;
+    GF_ASSERT(FALSE);
+    return TERRAIN_MAX;
 }
 
 static void sub_02052504(BattleSetup* setup, FieldSystem* fieldSystem) {
@@ -528,14 +528,14 @@ static void sub_02052504(BattleSetup* setup, FieldSystem* fieldSystem) {
     setup->battleBg = MapHeader_GetBattleBg(fieldSystem->location->mapId);
 
     if (player->unk4 == 2) {
-        setup->battleBg = 1;
+        setup->battleBg = BATTLE_BG_OCEAN;
     }
 
-    setup->unk_150 = sub_02052470(fieldSystem, setup->battleBg);
+    setup->terrain = sub_02052470(fieldSystem, setup->battleBg);
 }
 
 void sub_02052544(BattleSetup* setup) {
-    setup->unk_150 = 7;
+    setup->terrain = TERRAIN_WATER;
     setup->unk_1D0 = TRUE;
 }
 

@@ -23,7 +23,7 @@ Static main
 	Object asm/unk_02005D10.o
 	Object src/sound_chatot.o
 	Object src/poke_overlay.o
-	Object asm/unk_02007200.o
+	Object src/systask_environment.o
 	Object src/overlay_manager.o
 	Object src/filesystem.o
 	Object src/gf_gfx_loader.o
@@ -564,6 +564,7 @@ Overlay OVY_11
 Overlay OVY_12
 {
     After OVY_7
+    Object src/battle/battle_022378C0.o
     Object asm/overlay_12_022378C0.o
     Object src/battle/battle_system.o
     Object asm/overlay_12_battle_system.o
@@ -653,7 +654,7 @@ Overlay bug_contest
 Overlay OVY_25
 {
     After OVY_3
-    Object asm/overlay_25.o
+    Object src/overlay_25.o
 }
 Overlay OVY_26
 {
@@ -1115,7 +1116,8 @@ Overlay OVY_109
 Overlay OVY_110
 {
     After main
-    Object asm/overlay_110.o
+    Object src/alph_puzzle.o
+    Object asm/alph_puzzle_data.o
 }
 Overlay OVY_111
 {
